@@ -1,6 +1,6 @@
 {% set name = "pycparser" %}
-{% set version = "2.14" %}
-{% set sha256 = "7959b4a74abdc27b312fed1c21e6caf9309ce0b29ea86b591fd2e99ecdf27f73" %}
+{% set version = "2.17" %}
+{% set sha256 = "0aac31e917c24cb3357f5a4d5566f2cc91a19ca41862f6c3c22dc60a629673b6" %}
 
 package:
   name: {{ name|lower }}
@@ -31,10 +31,10 @@ about:
   home: https://github.com/eliben/pycparser
   license: BSD 3-clause
   license_file: LICENSE
-  summary: 'C parser in Python'
+  summary: 'Complete C99 parser in pure Python'
   description: |
-    pycparser is a parser for the C language, written in pure Python. It is a module designed to be easily 
-    integrated into applications that need to parse C source code.
+    pycparser is a complete parser of the C language, written in pure Python using the PLY parsing library.
+    It parses C code into an AST and can serve as a front-end for C compilers or analysis tools.
   dev_url: https://github.com/eliben/pycparser
 
 extra:

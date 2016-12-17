@@ -13,6 +13,18 @@ pycparser is a complete parser of the C language, written in pure Python using t
 It parses C code into an AST and can serve as a front-end for C compilers or analysis tools.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pycparser-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pycparser-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pycparser-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pycparser-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pycparser-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pycparser-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycparser/badges/version.svg)](https://anaconda.org/conda-forge/pycparser)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycparser/badges/downloads.svg)](https://anaconda.org/conda-forge/pycparser)
+
 Installing pycparser
 ====================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `pycparser` available on your plat
 ```
 conda search pycparser --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pycparser-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pycparser-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pycparser-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pycparser-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pycparser-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pycparser-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycparser/badges/version.svg)](https://anaconda.org/conda-forge/pycparser)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycparser/badges/downloads.svg)](https://anaconda.org/conda-forge/pycparser)
 
 
 Updating pycparser-feedstock
